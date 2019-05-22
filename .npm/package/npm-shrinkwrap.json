@@ -1,7 +1,10 @@
 {
+  "lockfileVersion": 1,
   "dependencies": {
     "redis": {
-      "version": "0.10.3"
+      "version": "0.10.3",
+      "resolved": "https://registry.npmjs.org/redis/-/redis-0.10.3.tgz",
+      "integrity": "sha1-iSf+IRDuOWF7zz/Te4nY4SORG7Y="
     }
   }
 }

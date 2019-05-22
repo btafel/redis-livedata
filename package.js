@@ -9,8 +9,8 @@
 
 Package.describe({
   summary: "Adaptor for using Redis and Miniredis over DDP",
-  version: "1.0.2",
-  name: "slava:redis-livedata",
+  version: "1.0.3",
+  name: "btafel:redis-livedata",
   git: "https://github.com/meteor/redis-livedata"
 });
 
@@ -69,7 +69,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('slava:redis-livedata');
+  api.use('btafel:redis-livedata');
   api.use('check');
   api.use(['tinytest', 'underscore', 'test-helpers', 'ejson', 'random',
            'livedata']);
